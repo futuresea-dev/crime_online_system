@@ -1,0 +1,67 @@
+/* tables */
+table.tablesorter, table.tablesorter_no {
+	font-family:arial;
+	background-color: #DADADA;
+	margin-top:10px;
+	font-size: 13px;
+	text-align: left;
+	border-collapse:collapse;
+	border-top:1px solid #4E71AB;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th, table.tablesorter_no thead tr th, table.tablesorter_no tfoot tr th {
+	background-color: #E2E9F1;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	font-size:13px;
+	padding: 4px;
+}
+table.tablesorter thead .header {
+	background-image: url(https://www.ukcrimestats.com/img/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+.emptyth {
+	background-color: #BFAD30;
+	border: 1px solid #CCC;
+	font-size:13px;
+	padding: 4px;
+}
+
+.cornerth {
+	background-color: #FFF;
+	border-top: 1px solid #FFF;
+	font-size:13px;
+	padding: 4px;
+}
+
+table.tablesorter tbody td, table.tablesorter_no tbody td {
+	color: #3D3D3D;
+	border:1px solid #CCC;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+	font-size:13px;
+}
+
+table.tablesorter tbody td.green {
+	color: #3D3D3D;
+	border:1px solid #CCC;
+	padding: 4px;
+	background-color: #90EE90;
+	vertical-align: top;
+	font-size:13px;
+}
+
+table.tablesorter tbody tr.odd td, table.tablesorter_no tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(https://www.ukcrimestats.com/img/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(https://www.ukcrimestats.com/img/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp, table.tablesorter_no thead tr .headerSortDown, table.tablesorter_no thead tr .headerSortUp {
+	background-color: #E2E9F1;
+}

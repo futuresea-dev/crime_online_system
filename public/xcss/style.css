@@ -1,0 +1,535 @@
+/*
+* Template : ukcrimestats
+* Description : Mobile responsive themes for ukcrimestats.com
+* Design : -
+* Created by : Fandi Kurniawan - http://tigamedia.net
+* Credit : Bootstrap
+*/
+
+body{
+	background-color: #f0f0f0;
+	color: #333;
+	font-size: 14px;
+	padding: 0 20px 3em;	
+	font-family: 'Tahoma';
+}
+
+#header{
+    border-top: 4px solid #4d71ab;
+    height: auto;
+    padding: 1em 0 0;
+}
+
+.clear{
+    clear: both;
+}
+
+#logo{
+	padding-right:0;
+	padding-left:0;
+}
+#logo .textlogo{
+    font-style: italic;
+    font-weight: 600;
+    padding: 0 0 5px 75px;
+}
+#logo .textlogo p{
+	font-size:14px;
+}
+
+#topbutton .text-right{
+	margin:5px 0 10px;
+}
+
+#topbutton form div{
+	padding-right:0;
+	padding-left:0;
+	margin: 5px 0;
+}
+#topbutton form #topSearchBar{
+	max-width:240px;
+	float:right;
+	margin: 0 8px;
+	height:31px;
+}
+
+.topdivider{
+    border-top: 2px solid #ccc;
+    height: 10px;
+    margin-bottom: 0;
+}
+
+#main{
+    background-color: #fff;
+    display: block;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+	padding-bottom: 15px;
+}
+/*=============
+* Left Content
+/*=============
+/*right container*/
+#mainleft{
+	padding-left:5px;
+	padding-right:5px;
+}
+/*Homepage*/
+#highlight{
+	margin-bottom:15px; 
+	padding:15px; 
+	background-color:#B5C8DA; 
+	border-top: 1px solid #B8B894; 
+	border-bottom: 1px solid #B8B894;
+}
+#highlight h3{
+	margin-bottom:15px;
+    margin-top: 0;	
+}
+#highlight h3 a{
+	color:#293D66; 
+	font-weight:bold; 
+	text-decoration:none; 
+	font-size:20px; 
+}
+
+.addthis_sharing_toolbox{
+	margin-bottom:15px;
+	padding:5px 0;
+}
+
+/*Latest blog style*/
+.blog-list{
+	margin:15px 0;
+	position:relative;
+}
+.blog-list h4{
+    color: #35475d;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+	margin-top: 0;
+}
+.blog-list .blog-entry h3{
+    font-size: 15px;
+}
+.blog-list .blog-entry h3 a{
+    font-weight:600;
+	text-decoration:underline;
+}
+.blog-list .blog-entry p{
+    text-align:justify;
+}
+
+/* google ads */
+.ads{	
+	padding:5px 0;
+	text-align:center;
+	margin:15px auto;
+	display:block;
+}
+.ads img{	
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Chart */
+.chart{
+	margin-bottom:15px;
+}
+.chart h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.chart .chart-img{
+	text-align:center;
+	border-top:1px solid #ccc;
+	padding:5px 0;
+	margin:5px auto 15px;
+}
+.chart .chart-img img{
+	display:block;
+	margin:0 auto;
+}
+
+/*Data Table*/
+.tablesorter{
+	font-size:13px;
+}
+font.percneg{
+	color:#008000 !important;
+}
+font.percpos{
+	color:#ff0000 !important;
+}
+
+.disclaimer{
+	color: #696969;
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    padding: 5px;	
+	text-align:justify;	
+}
+
+.btnSubmit {
+background-color: #4e71ab;
+    border: 0 none;
+    color: white;
+    font-size: 19px;
+    padding:2px 13px;
+}
+input[value=Reset]{
+background-color: white;
+color:rgb(100,100,100);
+}
+#crimeform {
+	padding:10px;
+}
+/*======================
+* Pages
+/*======================
+
+/*page description*/
+#page-desc{
+    background-color: #dadada;
+    border-bottom: 1px solid #b1b1b1;
+    border-top: 1px solid #b1b1b1;
+    margin-bottom: 15px;
+    min-height: 170px;
+    padding: 20px;
+}
+
+#page-desc .page-title{
+	max-width:75%;
+	float:left;
+}
+#page-desc .page-title h2{
+	margin-top:10px;
+	font-weight:600;
+}
+#page-desc .addthis_sharing_toolbox{
+	float:right;
+}
+
+#page-desc .desc-content{
+	padding:10px 0;
+}
+#page-desc .desc-content img{
+	float:right;
+	border:1px solid #333;
+	margin-bottom:10px;
+	margin-left: 5px;
+}
+#page-desc .desc-content p {
+    color: #35475d;
+    font-size: 14px;
+}
+
+#page-content{
+
+}
+
+/*Search Result*/
+.search-result{
+	margin:20px 0;
+}
+.result-title h3{
+	font-size:18px;
+}
+.result-content{
+	font-size:13px;
+	line-height:20px;
+}
+/*Table media page*/
+.media-table > table{
+	border: 1px solid #4e71ab;
+    font-size: 12px;
+}
+.media-table > table > thead > tr{
+	background-color: #4e71ab;
+	margin:2px 0;
+}
+.media-table > table > thead > tr > th:first-child {
+  border-right: 2px solid #fff;
+}
+.media-table > table > thead > tr > th:last-child {
+  border-left: 2px solid #fff;
+}
+.media-table > table > thead > tr > th,
+.media-table > table > tbody > tr > td.header{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+.media-table > table > tbody > tr > td{
+	border-bottom: 1px solid #efefef; 
+	padding: 0 5px;
+    vertical-align: middle;
+}
+/*page content*/
+#page-content{
+    padding:0 20px;
+}
+
+/*subscription - pricing table*/
+#subscribe-table{
+	text-align:center;
+	 margin: 25px 0;
+}
+#subscribe-table  .panel{
+	border:1px solid #ddd;
+	border-radius:0;
+	-webkit-border-radius:0;
+	-o-border-radius:0;
+	min-height:230px;
+}
+#subscribe-table  .panel > .panel-heading {
+    background-color: #baccdd;
+    border-bottom: 1px solid #ccc;
+    border-color: #ccc;
+    color: #333;
+    text-shadow: 0 2px 0 rgba(250, 250, 250, 0.7);
+	border-radius:0;
+	-webkit-border-radius:0;
+	-o-border-radius:0;	
+}
+#subscribe-table  .panel > .panel-heading > h3{
+	font-size:20px;
+	margin-top:10px;
+}
+#subscribe-table  .panel > .panel-body{
+	padding-bottom:0;
+}
+#subscribe-table  .panel > .panel-body small{
+	font-size:13px;
+	color:#999;
+}
+#subscribe-table .col-centered {
+    display:inline-table;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*Form search*/
+.search-panel{
+	margin:15px 0;
+    background: #e2e9f1 none repeat scroll 0 0;
+    border-top: 1px solid #4e71ab;
+}
+
+.memberfield, .pwd_placehold, .memberpwd {
+        font-size: 20px !important;
+        height: 1.4em !important;
+        width: 290px !important;
+        display:block !important;
+        margin-bottom: 9px !important;
+        padding-left:10px !important;
+    }
+    .memberpwd {
+        color:black;
+    }
+/*Signup form*/
+.membersocial {
+    border: 0 none;
+    color: #fff !important;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 9px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    max-width: 295px;
+	width:100%;
+}
+.membersocial:hover {
+	text-decoration:none;
+}
+.fb-signup{
+	background-color: #4e71ab;
+}
+
+.gmail-signup{
+	background-color: #dd4b39;
+}
+
+.membersocial  img{
+    float: left;
+    height: 1em;
+    margin: 5px;
+}
+
+.memberfield{
+    max-width: 295px;
+	width:100%;	
+}
+
+.membersubmit {
+    background-color: #00cc66;
+    border: 0 none;
+    color: white;
+    font-size: 18px;
+    height: 54px;
+    margin-bottom: 9px;
+    max-width: 295px;
+	width:100%;
+}
+
+/*======================
+* Right Content / widget
+/*======================
+
+/*right container*/
+#mainright{
+	padding-left:0;
+}
+/*search blue box*/
+.widget{
+	padding: 20px;	
+    margin:15px 0;
+}
+.widget ol,
+.widget ul{
+	padding-left: 15px;
+	font-size:12px;
+}
+.widget h3.title{
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:18px;
+	font-weight:bold;
+}
+.widget-search,
+.widget_search {
+    background-color: #4e71ab;
+    border-top: 1px solid #4e71ab;
+    color: #fff;
+	margin-top:0;
+}
+.widget-search div,
+.widget_search div{
+	padding-left:0;
+	padding-right:5px;
+}
+.widget_search input[type=text],
+.widget_search input[type=text]{
+	height:45px;
+	border:1px solid #000;
+	font-size:1.5em;
+	padding:3px;
+	color:#B1B1B1;
+}
+.widget-link-cover{
+	background-color:#B5C8DA; 
+	border-top: 1px solid #B8B894; 
+	border-bottom: 1px solid #B8B894;
+}
+.widget-link-cover a{
+	color:#000 !important;
+	text-decoration:none;
+	text-align:justify;
+}
+.widget-link-cover:hover{
+	border: 2px solid #333355;
+	text-decoration:none;
+	padding: 19px 18px;	
+}
+.widget-link-cover:hover a{
+	color:#4e71ab !important;
+}
+.widget-link-cover h3.title{
+	color: #293d66;
+}
+
+.widget-regular,
+.widget-nohover{
+    background-color: #dadada;
+    border-bottom: 1px solid #b1b1b1;
+    border-top: 1px solid #b1b1b1;
+}
+.widget-regular a{
+	color:#35475d !important;
+	text-decoration:none;
+	text-align:justify;
+}
+.widget-regular:hover{
+	border: 2px solid #333355;
+	text-decoration:none;
+	padding: 19px 18px;	
+}
+.widget-regular:hover a{
+	color:#35475d !important;
+}
+.widget-regular h3.title{
+	color: #35475D;
+}
+
+/*======================
+* Right Content / widget
+/*======================
+
+/*main footer*/
+footer{
+	background-color:#fff;	
+}
+#googlenews{
+		display: block;
+    margin: 0 auto 15px;
+    min-height: 120px;
+    padding: 15px 0;
+    position: relative;
+    text-align: center;
+}
+#googlenews iframe,
+#googlenews img{
+    display: block;
+	  margin: 0 auto;
+    max-width: 728px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+/*footer*/
+#footer{
+    background-color: #89bad9;
+    border-top: 2px solid #4e71ab;
+    font-size: 12px;
+    padding: 10px 0;
+	overflow:hidden;
+}
+
+/*tigamedia.net*/
+.tigamedia{
+	font-size:11px;
+	font-weight:500;
+}
+
+/*=================================
+Original Style by previous dev team
+===================================*/
+
+.atable2 .header {
+    background-color: #4e71ab;
+    color: #fff;
+}
+
+#nationalpicture_graph {
+    background-color: #fff;
+    border-top: 1px solid #b1b1b1;
+    color: #a9a9a9;
+    font-size: 11px;
+    margin-bottom: 10px;
+    width: 980px;
+}
+

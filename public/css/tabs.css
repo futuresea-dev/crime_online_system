@@ -1,0 +1,115 @@
+#container {
+	width:1000px;
+	margin: auto;
+}
+
+#main {
+	border: 1px solid #4E71AB;
+	clear: both;
+	background: #4E71AB;
+	padding-top: 2em;
+}
+
+#contents {
+	padding: 1.5em;
+	background: #FFFFFF;
+	min-height: 300px;
+}
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 3em;
+	width: 75em; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+
+#header ul#primary {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -1px;
+	width: 75em; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+}
+
+#header ul#primary li  {
+	display: inline;
+	list-style: none;
+}
+
+#header ul#primary a,#header ul#primary span,#header ul#primary a.current {
+	width: 117px;
+	display: block;
+	float: left;
+	padding: 4px 0;
+	margin: 1px 2px 0 0;
+	text-align: center;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 100%;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#header ul#primary span,#header ul#primary a.current,#header ul#primary a.current:hover {
+	border: 1px solid #4E71AB;
+	border-bottom: none;
+	background: #4E71AB;
+	color: #4E71AB;
+	padding-bottom: 6px;
+	margin-top: 0;
+}
+
+#header ul#primary a {
+	background: #4E71AB;
+	border: 1px solid #FFF;
+	border-bottom: none;
+}
+
+#header ul#primary a:hover {
+	margin-top: 0;
+	border-color: #4E71AB;
+	background: #4E71AB;
+	padding-bottom: 5px;
+}
+
+#header ul#secondary {
+	position: absolute;
+	margin: 0;
+	padding-top: 0;
+	bottom: -1.8em;
+	left: 1px;
+	width: 50em; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+	font-size:85%;
+}
+
+#header ul#secondary li a,#header ul#secondary li span {
+	width: auto;
+	display: block;
+	float: left;
+	padding: 0 10px;
+	margin: 0;
+	text-align: auto;
+	border: none;
+	border-right: 1px dotted #4E71AB;
+	background: none;
+	color: #4E71AB;
+}
+
+#header ul#secondary li a {
+	color: #06C;
+	text-decoration: underline;
+}
+
+#header ul#secondary li a:hover {
+	color: #333;
+	background: transparent;
+	padding: 0 10px;
+	border: none;
+	border-right: 1px dotted #4E71AB;
+}
+
+#header ul#secondary li a:active {
+	color: #FFF;
+	background: transparent;
+}
+
+#header ul#secondary li:last-child a { border: none; }

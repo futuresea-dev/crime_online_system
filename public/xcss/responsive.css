@@ -1,0 +1,289 @@
+/*
+* Template : ukcrimestats
+* Description : Mobile responsive themes for ukcrimestats.com
+* Design : -
+* Created by : Fandi Kurniawan - http://tigamedia.net
+* Credit : Bootstrap
+* Responsive CSS
+*/
+
+@media only screen and (max-width: 1366px) and (min-width: 1280px){
+	.container {
+		width:1030px;
+	}
+	#firstnav .navbar-header{
+		display:none;
+	}
+	
+}
+
+@media only screen and (max-width: 1278px) and (min-width: 1024px) {
+
+	.container {
+		width:1030px;
+	}
+	#firstnav .navbar-header{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 998px) {
+	
+.container {
+	width:1030px;
+}	
+#firstnav .navbar-header{
+	display:none;
+}
+
+}
+
+@media only screen and (max-width: 996px) and (min-width: 768px) {
+	
+#firstnav .navbar-header{
+	display:none;
+}
+
+#page-desc .page-title {
+    max-width: 70%;
+}
+	
+}
+
+@media only screen and (max-width: 766px) and (min-width: 670px) {
+	
+#header {
+    padding: 1em 0 10px;
+}
+
+#logo .textlogo {
+    padding: 5px;
+}
+
+#logo .textlogo p {
+    font-size: 12px;
+	text-align:center;
+}
+
+#topbutton .text-right {
+    text-align: center;
+}
+
+#firstnav .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#page-desc .page-title {
+    max-width: 70%;
+}
+
+}
+
+@media only screen and (max-width: 668px) and (min-width: 410px) {
+
+#topbutton form #topSearchBar {
+    max-width: 340px;
+    float: right;
+}
+
+
+
+#header {
+    padding: 1em 0 10px;
+}
+
+#logo .textlogo {
+    padding: 5px;
+}
+
+#logo .textlogo p {
+    font-size: 12px;
+	text-align:center;
+}
+
+#topbutton .text-right {
+    text-align: center;
+}
+
+#firstnav .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*Page*/
+#page-desc .page-title {
+    max-width: 100%;
+    float: none;
+}
+#page-desc .page-title h2{
+	font-size: 20px;
+}
+#page-desc .addthis_sharing_toolbox {
+    float: none;
+}
+#page-desc .desc-content img {
+    float: right;
+}
+	
+}
+
+/*iphone 6 , android, blackberry*/
+@media only screen and (max-width: 408px) and (min-width: 320px) {
+	
+#header {
+    padding: 1em 0 10px;
+}
+
+#logo .textlogo {
+    padding: 10px 5px;
+    text-align: justify;
+}
+
+#logo .textlogo p {
+   font-size: 12px;
+}
+
+#topbutton .text-right {
+    text-align: center;
+}
+
+#firstnav .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-brand {
+	padding: 15px 20px;
+}
+
+.blog-list {
+    padding: 0 10px;
+}
+
+.blog-list h4 {
+    text-align: center;
+}
+.blog-list .blog-entry h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*Page*/
+#page-desc .page-title {
+    max-width: 100%;
+    float: none;
+	font-size: 20px;
+}
+#page-desc .page-title h2{
+	font-size: 20px;
+}
+#page-desc .addthis_sharing_toolbox {
+    float: none;
+}
+#page-desc .desc-content img {
+    float: none;
+}
+
+.membersocial {
+    border: 0 none;
+    color: #fff !important;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 9px;
+    max-width: 295px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.membersocial img {
+    float: none;
+    height: 1em;
+    margin: 0;
+}
+	
+ol,ul{
+	padding-left:5px;
+}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+#header {
+    padding: 1em 0 10px;
+}
+
+#logo .textlogo {
+    padding: 10px 5px;
+    text-align: justify;
+}
+
+#logo .textlogo p {
+   font-size: 12px;
+}
+
+#topbutton .text-right {
+    text-align: center;
+}
+
+#firstnav .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-brand {
+	padding: 15px 20px;
+	font-size: 16px;
+}
+
+.blog-list {
+    padding: 0 10px;
+}
+
+.blog-list h4 {
+    text-align: center;
+}
+.blog-list .blog-entry h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/*Page*/
+#page-desc .page-title {
+    max-width: 100%;
+    float: none;
+	font-size: 20px;
+}
+#page-desc .page-title h2{
+	font-size: 20px;
+}
+#page-desc .addthis_sharing_toolbox {
+    float: none;
+}
+#page-desc .desc-content img {
+    float: none;
+}
+
+.membersocial {
+    border: 0 none;
+    color: #fff !important;
+    display: block;
+    font-size: 10px;
+    margin-bottom: 9px;
+    max-width: 295px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.membersocial img {
+    float: none;
+    height: 1em;
+    margin: 0;
+}
+
+ol,ul{
+	padding-left:5px;
+}
+
+}
