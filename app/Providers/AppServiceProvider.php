@@ -30,10 +30,6 @@ class AppServiceProvider extends ServiceProvider
             (!empty($_SERVER['SSL_PROTOCOL']) ?
                 'https://' . env('APP_URL') . '/' :
                 'http://' . env('APP_URL') . '/'));
-        define('_STRIPE_PUBLISABLE_KEY_', "pk_live_51NC1C7Cd7VamiiZlBJ3JMOFokoX314eMwqBViVzKthcCyTCtISYtvMuP4vZbi9i8goZRBwjUisWOq0JneXmG5sbG00xGoXhEJR");
-        define('_STRIPE_SECRET_', "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");
-        define('_STRIPE_POSTCODE_REPORT_PRICE_KEY_', "price_1OOdNvCd7VamiiZlHJYW0BkU");
-        define('_STRIPE_PCD_ACCIDENT_REPORT_PRICE_KEY_', "price_1OOdJ8Cd7VamiiZlKBzFOXPh");
 
 
         define('_MY_HREF_CLEAN_', 'http://' . env('APP_URL') . '/');
