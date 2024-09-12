@@ -15,7 +15,7 @@
     RewriteRule ^ index.php [L]
 </IfModule>
 
-<VirtualHost *:80>
+<VirtualHost *:8000>
     DocumentRoot "/workspace/public"
     <Directory "/workspace/public">
         AllowOverride All
