@@ -76,6 +76,6 @@ class ConstituencyController extends Controller
             return  DataTables::of($data)->make(true);
 
         }
-        return response()->json(aray());
+        return response()->json(array());
     }
 }

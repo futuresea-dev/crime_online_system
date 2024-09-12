@@ -13,13 +13,13 @@ use App\Http\Controllers;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('Constituencies', 'ConstituencyController@index')->name('constituencies');
-Route::get('constituencies/get_data', 'ConstituencyController@getData')->name('constit_get_data');
+Route::get('/', 'ConstituencyController@index')->name('constituencies');
+Route::get('/get_data', 'ConstituencyController@getData')->name('constit_get_data');
