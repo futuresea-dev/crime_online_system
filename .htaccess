@@ -1,1 +1,14 @@
 Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
+
+<VirtualHost *:80>
+    DocumentRoot "/workspace/public"
+    <Directory "/workspace/public">
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
